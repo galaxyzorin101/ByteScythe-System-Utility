@@ -1,0 +1,11 @@
+# Build & Cache Folders
+build/
+app/build/
+.gradle/
+.idea/
+bin/
+obj/
+node_modules/
+*.iml
+local.properties
+

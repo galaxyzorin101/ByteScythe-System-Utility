@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#0F172A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ByteScythe System Utility"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Filter Buttons Bar -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnFilterAll"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="All"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnFilterSystem"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="System"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnFilterUser"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="User"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnFilterRecycleBin"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="Recycle Bin"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Search Input -->
+    <EditText
+        android:id="@+id/searchEdit"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:hint="Search apps or packages..."
+        android:textColorHint="#94A3B8"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:background="#1E293B"
+        android:textSize="14sp" />
+
+    <!-- Batch Action Bar -->
+    <LinearLayout
+        android:id="@+id/batchActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSelectAll"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Select All"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnBatchAction"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Action (0)"
+            android:textSize="11sp"
+            android:backgroundTint="#EF4444" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/packageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:divider="#334155"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- You can use spaces here for the launcher title -->
+    <string name="app_name">ByteScythe Utility</string>
+</resources>

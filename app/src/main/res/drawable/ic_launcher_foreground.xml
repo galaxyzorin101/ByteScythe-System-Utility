@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:translateX="18"
+        android:translateY="18">
+
+        <!-- Scythe Handle -->
+        <path
+            android:fillColor="#94A3B8"
+            android:pathData="M18,60 L48,30 L54,36 L24,66 Z" />
+
+        <!-- Main Blade -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M46,32 C30,16 12,22 12,22 C24,28 36,34 42,40 Z" />
+
+        <!-- Cyber Red Accent -->
+        <path
+            android:fillColor="#EF4444"
+            android:pathData="M46,32 C56,20 34,10 16,14 C30,14 40,22 46,32 Z" />
+
+    </group>
+</vector>
