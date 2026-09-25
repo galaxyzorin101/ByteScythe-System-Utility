@@ -2,7 +2,7 @@
 
 A straightforward Android debloating utility designed to clean up heavily bloated stock phones (Xiaomi, OPPO, Samsung, Realme, etc.). Works using **Shizuku** or **Root** access.
 
-> ⚠️ **Note:** This tool is currently in early development and is **not properly tested**. Use at your own risk and make sure to back up critical data.
+> ⚠️ **Note:** This tool is currently in early development and is **not properly tested**. Use at your own risk and make sure to back up critical data. Just DO NOT delete core level system apps.
 
 ---
 
